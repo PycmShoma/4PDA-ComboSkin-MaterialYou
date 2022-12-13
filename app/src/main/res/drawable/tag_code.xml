@@ -14,7 +14,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach" />
+                    android:src="@drawable/b_tag_code" />
             </item>
         </layer-list>
     </item>
@@ -24,7 +24,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach"
+                    android:src="@drawable/b_tag_code"
                     android:tint="@color/selected_bg" />
             </item>
         </layer-list>

@@ -14,17 +14,17 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach" />
+                    android:src="@drawable/ic_smiles_qms" />
             </item>
         </layer-list>
     </item>
     <item
-        android:state_enabled="true">
+        android:state_pressed="false">
         <layer-list>
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach"
+                    android:src="@drawable/ic_smiles_qms"
                     android:tint="@color/selected_bg" />
             </item>
         </layer-list>

@@ -14,7 +14,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach" />
+                    android:src="@drawable/ic_send_qms" />
             </item>
         </layer-list>
     </item>
@@ -24,7 +24,17 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach"
+                    android:src="@drawable/ic_send_qms" />
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_enabled="false">
+        <layer-list>
+            <item>
+                <bitmap
+                    android:gravity="center"
+                    android:src="@drawable/ic_send_qms_disable"
                     android:tint="@color/selected_bg" />
             </item>
         </layer-list>

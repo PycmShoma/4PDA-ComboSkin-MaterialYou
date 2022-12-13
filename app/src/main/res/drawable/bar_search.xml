@@ -14,7 +14,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach" />
+                    android:src="@drawable/ic_bar_search" />
             </item>
         </layer-list>
     </item>
@@ -24,7 +24,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach"
+                    android:src="@drawable/ic_bar_search"
                     android:tint="@color/selected_bg" />
             </item>
         </layer-list>

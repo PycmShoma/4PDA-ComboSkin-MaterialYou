@@ -13,8 +13,8 @@
             </item>
             <item>
                 <bitmap
-                    android:gravity="center"
-                    android:src="@drawable/ic_add_attach" />
+                    android:gravity="center|right"
+                    android:src="@drawable/ic_share" />
             </item>
         </layer-list>
     </item>
@@ -23,8 +23,8 @@
         <layer-list>
             <item>
                 <bitmap
-                    android:gravity="center"
-                    android:src="@drawable/ic_add_attach"
+                    android:gravity="center|right"
+                    android:src="@drawable/ic_share"
                     android:tint="@color/selected_bg" />
             </item>
         </layer-list>

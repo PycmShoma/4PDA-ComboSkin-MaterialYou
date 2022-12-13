@@ -14,7 +14,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach" />
+                    android:src="@drawable/ic_send" />
             </item>
         </layer-list>
     </item>
@@ -24,8 +24,18 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_add_attach"
+                    android:src="@drawable/ic_send"
                     android:tint="@color/selected_bg" />
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_enabled="false">
+        <layer-list>
+            <item>
+                <bitmap
+                    android:gravity="center"
+                    android:src="@drawable/ic_send_disable" />
             </item>
         </layer-list>
     </item>
