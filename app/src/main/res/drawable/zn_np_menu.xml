@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="rectangle">
+                    <solid
+                        android:color="@color/transparent" />
+                </shape>
+            </item>
+            <item
+                android:left="5.0dip"
+                android:top="5.0dip"
+                android:right="5.0dip"
+                android:bottom="5.0dip">
+                <shape
+                    android:dither="true"
+                    android:shape="rectangle">
+                    <corners
+                        android:radius="10.0dip" />
+                    <solid
+                        android:color="@color/zn_brend" />
+                    <stroke
+                        android:width="1.0dip"
+                        android:color="@color/zn_selected_bg" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="rectangle">
+                    <solid
+                        android:color="@color/transparent" />
+                </shape>
+            </item>
+            <item
+                android:left="5.0dip"
+                android:top="5.0dip"
+                android:right="5.0dip"
+                android:bottom="5.0dip">
+                <shape
+                    android:dither="true"
+                    android:shape="rectangle">
+                    <corners
+                        android:radius="10.0dip" />
+                    <solid
+                        android:color="@color/zn_brend" />
+                    <stroke
+                        android:width="1.0dip"
+                        android:color="@color/zn_selected_bg" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

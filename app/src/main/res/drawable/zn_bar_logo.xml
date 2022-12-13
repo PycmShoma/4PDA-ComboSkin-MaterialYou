@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:gravity="center|left"
+            android:src="@drawable/zn_ic_bar_logo"
+            android:tint="@color/zn_selected_bg" />
+    </item>
+</layer-list>
