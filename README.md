@@ -20,7 +20,7 @@ and
 `<color name="selected_bg">@android:color/system_accent1_500</color>`
 
 `RUS`
-Если при сборке проекта в AIDE - Android IDE - Java, C++ вы получили ошибку по коду цвета `@android:color/system_neutral1_900` или `@android:color/system_accent1_500` замените этот код на цвет в hex формате. После сборки проекта вы можете декомпилировать приложение в apktool и вернуть значения не место
+Если при сборке проекта в AIDE - Android IDE - Java, C++ вы получили ошибку по коду цвета `@android:color/system_neutral1_900` или `@android:color/system_accent1_500` замените этот код на цвет в hex формате. После сборки проекта вы можете декомпилировать приложение в apktool и вернуть значения на место
 `<color name="brend">@android:color/system_neutral1_900</color>`
 и
 `<color name="selected_bg">@android:color/system_accent1_500</color>`
