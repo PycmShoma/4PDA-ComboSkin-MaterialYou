@@ -1,4 +1,4 @@
-## MaterialYou (Monet) skin for [4PDA](https://4pda.to/forum/index.php?showtopic=673755) forum app
+## MaterialYou (Monet) ComboSkin for [4PDA](https://4pda.to/forum/index.php?showtopic=673755) forum app
 #
 <img src="https://img.shields.io/badge/minSdk-31-blue?longCache=true&style=flat">
 
