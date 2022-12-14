@@ -15,6 +15,9 @@
     <color name="bb_cur_body">@color/transparent</color>
     <color name="bb_cur_border">#ff00943b</color>
     <color name="bb_cur_indent">#ff00943b</color>
+    <color name="bb_edit_tag">@color/blue</color>
+    <color name="bb_edit_tagsel">@color/selected_bg</color>
+    <color name="bb_edit_val">@color/red</color>
     <color name="bb_empty_image_background">#40e0e0e0</color>
     <color name="bb_empty_image_edge">#80505050</color>
     <color name="bb_empty_image_x">#80b0b0b0</color>
@@ -62,6 +65,7 @@
     <color name="burlywood">#ffdeb887</color>
     <color name="business_bg">@color/brend</color>
     <color name="button_flat_bg">@color/brend</color>
+    <color name="button_flat_text">@color/main_text</color>
     <color name="button_text">@color/main_text</color>
     <color name="cadetblue">#ff5f9ea0</color>
     <color name="cardlist_bg">@color/brend</color>
@@ -126,6 +130,7 @@
     <color name="group_spec_project">#ff9a60ff</color>
     <color name="group_super_moderator">#ff0000ff</color>
     <color name="group_user">#ff008000</color>
+    <color name="guide_gallary_bg">@color/brend</color>
     <color name="hidden">#40ff0000</color>
     <color name="honeydew">#fff0fff0</color>
     <color name="hotpink">#ffff69b4</color>
@@ -196,6 +201,8 @@
     <color name="pressed">@color/brend</color>
     <color name="progress_all">@color/main_text</color>
     <color name="progress_done">@color/selected_bg</color>
+    <color name="progress_image">@color/selected_bg</color>
+    <color name="progress_qms">@color/selected_bg</color>
     <color name="purple">#ff800080</color>
     <color name="qms_typing_dots">@color/main_text</color>
     <color name="qmslist_bg">@color/brend</color>
@@ -216,12 +223,14 @@
     <color name="sienna">#ffa0522d</color>
     <color name="silver">#ffc0c0c0</color>
     <color name="sitepost_shade">#99000000</color>
+    <color name="skin_flags">#ff000000</color>
     <color name="skin_keyword_off_bg">#ffe0e0e0</color>
     <color name="skin_keyword_on_bg">@color/selected_bg</color>
     <color name="skyblue">#ff87ceeb</color>
     <color name="slateblue">#ff6a5acd</color>
     <color name="slategray">#ff708090</color>
     <color name="snow">#fffffafa</color>
+    <color name="splash_bg">@color/brend</color>
     <color name="springgreen">#ff00ff7f</color>
     <color name="start_btn_text">@color/main_text</color>
     <color name="start_button_bg">@color/selected_bg</color>
@@ -238,6 +247,7 @@
     <color name="ticket_work">#ffe0e000</color>
     <color name="ticket_work_text">@color/main_text</color>
     <color name="tomato">#ffff6347</color>
+    <color name="transparent">#00000000</color>
     <color name="turquoise">#ff40e0d0</color>
     <color name="unread_bg">@color/brend</color>
     <color name="unread_text">@color/main_text</color>
@@ -262,6 +272,9 @@
     <color name="zn_bb_cur_body">@color/transparent</color>
     <color name="zn_bb_cur_border">#ff004f1f</color>
     <color name="zn_bb_cur_indent">#ff004f1f</color>
+    <color name="zn_bb_edit_tag">@color/zn_blue</color>
+    <color name="zn_bb_edit_tagsel">@color/zn_selected_bg</color>
+    <color name="zn_bb_edit_val">@color/zn_red</color>
     <color name="zn_bb_empty_image_background">#20e0e0e0</color>
     <color name="zn_bb_empty_image_edge">#80505050</color>
     <color name="zn_bb_empty_image_x">#80b0b0b0</color>
@@ -309,6 +322,7 @@
     <color name="zn_burlywood">#ffdeb887</color>
     <color name="zn_business_bg">@color/zn_brend</color>
     <color name="zn_button_flat_bg">@color/zn_brend</color>
+    <color name="zn_button_flat_text">@color/zn_main_text</color>
     <color name="zn_button_text">@color/zn_main_text</color>
     <color name="zn_cadetblue">#ff5f9ea0</color>
     <color name="zn_cardlist_bg">@color/zn_brend</color>
@@ -373,6 +387,7 @@
     <color name="zn_group_spec_project">#ff9a60ff</color>
     <color name="zn_group_super_moderator">#ff0000ff</color>
     <color name="zn_group_user">#ff20a020</color>
+    <color name="zn_guide_gallary_bg">@color/zn_brend</color>
     <color name="zn_hidden">#ff3f0000</color>
     <color name="zn_honeydew">#fff0fff0</color>
     <color name="zn_hotpink">#ffff69b4</color>
@@ -402,6 +417,7 @@
     <color name="zn_lime">#ff00ff00</color>
     <color name="zn_limegreen">#ff32cd32</color>
     <color name="zn_linen">#fffaf0e6</color>
+    <color name="zn_list_selector">@color/black</color>
     <color name="zn_magenta">#ffff00ff</color>
     <color name="zn_main_bg">@color/zn_brend</color>
     <color name="zn_main_text">#ffb0b0b0</color>
@@ -442,6 +458,8 @@
     <color name="zn_pressed">@color/zn_brend</color>
     <color name="zn_progress_all">@color/zn_main_text</color>
     <color name="zn_progress_done">@color/zn_selected_bg</color>
+    <color name="zn_progress_image">@color/zn_selected_bg</color>
+    <color name="zn_progress_qms">@color/zn_selected_bg</color>
     <color name="zn_purple">#ffa020a0</color>
     <color name="zn_qms_typing_dots">@color/zn_main_text</color>
     <color name="zn_qmslist_bg">@color/zn_brend</color>
@@ -462,12 +480,14 @@
     <color name="zn_sienna">#ffa0522d</color>
     <color name="zn_silver">#ffc0c0c0</color>
     <color name="zn_sitepost_shade">#50000000</color>
+    <color name="zn_skin_flags">#ffffffff</color>
     <color name="zn_skin_keyword_off_bg">#ff000000</color>
     <color name="zn_skin_keyword_on_bg">@color/zn_selected_bg</color>
     <color name="zn_skyblue">#ff87ceeb</color>
     <color name="zn_slateblue">#ff6a5acd</color>
     <color name="zn_slategray">#ff708090</color>
     <color name="zn_snow">#fffffafa</color>
+    <color name="zn_splash_bg">@color/zn_brend</color>
     <color name="zn_springgreen">#ff00ff7f</color>
     <color name="zn_start_btn_text">@color/zn_main_text</color>
     <color name="zn_start_button_bg">@color/zn_selected_bg</color>
@@ -503,24 +523,4 @@
     <color name="zn_art_com_even_bg">@color/zn_brend</color>
     <color name="zn_art_sep_color">@color/zn_brend</color>
     <color name="zn_art_sep_small_color">@color/zn_brend</color>
-    <color name="transparent">#00000000</color>
-    <color name="bb_edit_tag">@color/blue</color>
-    <color name="bb_edit_tagsel">@color/transparent</color>
-    <color name="bb_edit_val">@color/zn_selected_bg</color>
-    <color name="zn_bb_edit_tag">@color/zn_blue</color>
-    <color name="zn_bb_edit_tagsel">@color/transparent</color>
-    <color name="zn_bb_edit_val">@color/zn_selected_bg</color>
-    <color name="button_flat_text">@color/main_text</color>
-    <color name="zn_button_flat_text">@color/zn_main_text</color>
-    <color name="guide_gallary_bg">@color/brend</color>
-    <color name="zn_guide_gallary_bg">@color/zn_brend</color>
-    <color name="progress_image">@color/selected_bg</color>
-    <color name="progress_qms">@color/selected_bg</color>
-    <color name="zn_progress_image">@color/zn_selected_bg</color>
-    <color name="zn_progress_qms">@color/zn_selected_bg</color>
-    <color name="skin_flags">#ff000000</color>
-    <color name="zn_skin_flags">#ffffffff</color>
-    <color name="splash_bg">@color/brend</color>
-    <color name="zn_splash_bg">@color/zn_brend</color>
-    <color name="zn_list_selector">@color/black</color>
 </resources>
