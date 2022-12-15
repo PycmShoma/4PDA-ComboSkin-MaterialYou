@@ -5,6 +5,11 @@
     <color name="antiquewhite">#fffaebd7</color>
     <color name="aqua">#ff00ffff</color>
     <color name="aquamarine">#ff7fffd4</color>
+    <color name="art_com_date">@color/main_text</color>
+    <color name="art_com_date_bg">@color/brend</color>
+    <color name="art_com_even_bg">@color/brend</color>
+    <color name="art_sep_color">@color/brend</color>
+    <color name="art_sep_small_color">@color/brend</color>
     <color name="azure">#fff0ffff</color>
     <color name="bb_background">@color/transparent</color>
     <color name="bb_code_body">#fffcece5</color>
@@ -262,6 +267,11 @@
     <color name="zn_antiquewhite">#fffaebd7</color>
     <color name="zn_aqua">#ff00ffff</color>
     <color name="zn_aquamarine">#ff7fffd4</color>
+    <color name="zn_art_com_date">@color/zn_main_text</color>
+    <color name="zn_art_com_date_bg">@color/zn_brend</color>
+    <color name="zn_art_com_even_bg">@color/zn_brend</color>
+    <color name="zn_art_sep_color">@color/zn_brend</color>
+    <color name="zn_art_sep_small_color">@color/zn_brend</color>
     <color name="zn_azure">#fff0ffff</color>
     <color name="zn_bb_background">@color/transparent</color>
     <color name="zn_bb_code_body">#ff2f2b29</color>
@@ -513,14 +523,4 @@
     <color name="zn_whitesmoke">#fff5f5f5</color>
     <color name="zn_yellow">#ffffff00</color>
     <color name="zn_yellowgreen">#ff9acd32</color>
-    <color name="art_com_date">@color/main_text</color>
-    <color name="art_com_date_bg">@color/brend</color>
-    <color name="art_com_even_bg">@color/brend</color>
-    <color name="art_sep_color">@color/brend</color>
-    <color name="art_sep_small_color">@color/brend</color>
-    <color name="zn_art_com_date">@color/zn_main_text</color>
-    <color name="zn_art_com_date_bg">@color/zn_brend</color>
-    <color name="zn_art_com_even_bg">@color/zn_brend</color>
-    <color name="zn_art_sep_color">@color/zn_brend</color>
-    <color name="zn_art_sep_small_color">@color/zn_brend</color>
 </resources>
