@@ -17,20 +17,26 @@ You can build this project on desktop with Android Studio or on Android device w
 
 `ENG`
 If you building a project in AIDE - Android IDE - Java, C++
+
 Remove implemention `testImplementation 'junit:junit:4.12'` in build.gradle
 
 `RUS`
-Если при сборке проекта в AIDE - Android IDE - Java, C++
+Если вы собираете проект в AIDE - Android IDE - Java, C++
+
 Удалите зависмость `testImplementation 'junit:junit:4.12'` в build.gradle
 
 #
 #
 
 `ENG`
-For building a project in AIDE - Android IDE - Java, C++ import [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
+For building a project in AIDE - Android IDE - Java, C++
+
+Import [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
 
 `RUS`
-Для сборки проекта в AIDE - Android IDE - Java, C++ импортируйте [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
+Для сборки проекта в AIDE - Android IDE - Java, C++
+
+Импортируйте [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
 
 #
 #
