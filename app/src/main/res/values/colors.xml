@@ -21,8 +21,8 @@
     <color name="bb_cur_border">#ff00943b</color>
     <color name="bb_cur_indent">#ff00943b</color>
     <color name="bb_edit_tag">@color/blue</color>
-    <color name="bb_edit_tagsel">@color/selected_bg</color>
-    <color name="bb_edit_val">@color/red</color>
+    <color name="bb_edit_tagsel">#40808080</color>
+    <color name="bb_edit_val">#ffe8c06b</color>
     <color name="bb_empty_image_background">#40e0e0e0</color>
     <color name="bb_empty_image_edge">#80505050</color>
     <color name="bb_empty_image_x">#80b0b0b0</color>
@@ -47,8 +47,8 @@
     <color name="bb_quote_border">@color/selected_bg</color>
     <color name="bb_quote_head">@color/transparent</color>
     <color name="bb_quote_indent">@color/selected_bg</color>
-    <color name="bb_selection_background">@color/selected_bg</color>
-    <color name="bb_selection_font">#ffffffff</color>
+    <color name="bb_selection_background">@color/brend_alpha</color>
+    <color name="bb_selection_font">@color/main_text</color>
     <color name="bb_spoiler_body">@color/transparent</color>
     <color name="bb_spoiler_border">@color/selected_bg</color>
     <color name="bb_spoiler_head">@color/transparent</color>
@@ -63,9 +63,9 @@
     <color name="blueviolet">#ff8a2be2</color>
     <color name="border_line">#ffe5e5e5</color>
     <color name="brend">@android:color/system_neutral1_50</color>
-    <color name="brend_alpha">@color/brend</color>
+    <color name="brend_alpha">@android:color/system_neutral1_100</color>
     <color name="brown">#ffa52a2a</color>
-    <color name="bubble_my_bg">#ffd8efff</color>
+    <color name="bubble_my_bg">@color/brend_alpha</color>
     <color name="bubble_oppo_bg">#ffffffff</color>
     <color name="burlywood">#ffdeb887</color>
     <color name="business_bg">@color/brend</color>
@@ -76,7 +76,7 @@
     <color name="cardlist_bg">@color/brend</color>
     <color name="chartreuse">#ff7fff00</color>
     <color name="chocolate">#ffd2691e</color>
-    <color name="circle_bg">@color/brend</color>
+    <color name="circle_bg">@color/brend_alpha</color>
     <color name="comments_count_bg">@color/brend</color>
     <color name="coral">#ffff7f50</color>
     <color name="cornflowerblue">#ff6495ed</color>
@@ -229,7 +229,7 @@
     <color name="silver">#ffc0c0c0</color>
     <color name="sitepost_shade">#99000000</color>
     <color name="skin_flags">#ff000000</color>
-    <color name="skin_keyword_off_bg">#ffe0e0e0</color>
+    <color name="skin_keyword_off_bg">@color/brend_alpha</color>
     <color name="skin_keyword_on_bg">@color/selected_bg</color>
     <color name="skyblue">#ff87ceeb</color>
     <color name="slateblue">#ff6a5acd</color>
@@ -283,8 +283,8 @@
     <color name="zn_bb_cur_border">#ff004f1f</color>
     <color name="zn_bb_cur_indent">#ff004f1f</color>
     <color name="zn_bb_edit_tag">@color/zn_blue</color>
-    <color name="zn_bb_edit_tagsel">@color/zn_selected_bg</color>
-    <color name="zn_bb_edit_val">@color/zn_red</color>
+    <color name="zn_bb_edit_tagsel">#40808080</color>
+    <color name="zn_bb_edit_val">#ffe8c06b</color>
     <color name="zn_bb_empty_image_background">#20e0e0e0</color>
     <color name="zn_bb_empty_image_edge">#80505050</color>
     <color name="zn_bb_empty_image_x">#80b0b0b0</color>
@@ -309,7 +309,7 @@
     <color name="zn_bb_quote_border">@color/zn_selected_bg</color>
     <color name="zn_bb_quote_head">@color/transparent</color>
     <color name="zn_bb_quote_indent">@color/zn_selected_bg</color>
-    <color name="zn_bb_selection_background">@color/zn_selected_bg</color>
+    <color name="zn_bb_selection_background">@color/zn_brend_alpha</color>
     <color name="zn_bb_selection_font">#ffd0d0d0</color>
     <color name="zn_bb_spoiler_body">@color/transparent</color>
     <color name="zn_bb_spoiler_border">@color/zn_selected_bg</color>
@@ -325,9 +325,9 @@
     <color name="zn_blueviolet">#ff8a2be2</color>
     <color name="zn_border_line">#ff343434</color>
     <color name="zn_brend">@android:color/system_neutral1_900</color>
-    <color name="zn_brend_alpha">@color/zn_brend</color>
+    <color name="zn_brend_alpha">@android:color/system_neutral1_800</color>
     <color name="zn_brown">#ffa52a2a</color>
-    <color name="zn_bubble_my_bg">#ff2f2f2f</color>
+    <color name="zn_bubble_my_bg">@color/zn_brend_alpha</color>
     <color name="zn_bubble_oppo_bg">#ff2f2f2f</color>
     <color name="zn_burlywood">#ffdeb887</color>
     <color name="zn_business_bg">@color/zn_brend</color>
@@ -338,7 +338,7 @@
     <color name="zn_cardlist_bg">@color/zn_brend</color>
     <color name="zn_chartreuse">#ff7fff00</color>
     <color name="zn_chocolate">#ffd2691e</color>
-    <color name="zn_circle_bg">@color/zn_brend</color>
+    <color name="zn_circle_bg">@color/zn_brend_alpha</color>
     <color name="zn_comments_count_bg">@color/zn_brend</color>
     <color name="zn_coral">#ffff7f50</color>
     <color name="zn_cornflowerblue">#ff6495ed</color>
@@ -491,7 +491,7 @@
     <color name="zn_silver">#ffc0c0c0</color>
     <color name="zn_sitepost_shade">#50000000</color>
     <color name="zn_skin_flags">#ffffffff</color>
-    <color name="zn_skin_keyword_off_bg">#ff000000</color>
+    <color name="zn_skin_keyword_off_bg">@color/zn_brend_alpha</color>
     <color name="zn_skin_keyword_on_bg">@color/zn_selected_bg</color>
     <color name="zn_skyblue">#ff87ceeb</color>
     <color name="zn_slateblue">#ff6a5acd</color>
