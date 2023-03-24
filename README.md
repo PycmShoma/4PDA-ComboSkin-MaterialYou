@@ -27,35 +27,10 @@ Remove implemention `testImplementation 'junit:junit:4.12'` in build.gradle
 #
 
 `ENG`
-If when building a project in AIDE - Android IDE - Java, C++ you get an error on the color code:
-`@android:color/system_neutral1_50`
-`@android:color/system_neutral1_900`
-`@android:color/system_accent1_500`
-
-replace this code with a color in hex format. After building the project, you can decompile the application into apktool and return the values ​​in place
-
-`<color name="brend">@android:color/system_neutral1_50</color>`
-
-`<color name="zn_brend">@android:color/system_neutral1_900</color>`
-
-`<color name="selected_bg">@android:color/system_accent1_500</color>`
-
-`<color name="zn_selected_bg">@android:color/system_accent1_500</color>`
+For building a project in AIDE - Android IDE - Java, C++ import [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
 
 `RUS`
-Если при сборке проекта в AIDE - Android IDE - Java, C++ вы получили ошибку по коду цвета:
-`@android:color/system_neutral1_50`
-`@android:color/system_neutral1_900`
-`@android:color/system_accent1_500`
-
-замените этот код на цвет в hex формате. После сборки проекта вы можете декомпилировать приложение в apktool и вернуть значения на место:
-`<color name="brend">@android:color/system_neutral1_50</color>`
-
-`<color name="zn_brend">@android:color/system_neutral1_900</color>`
-
-`<color name="selected_bg">@android:color/system_accent1_500</color>`
-
-`<color name="zn_selected_bg">@android:color/system_accent1_500</color>`
+Для сборки проекта в AIDE - Android IDE - Java, C++ импортируйте [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
 
 #
 #
