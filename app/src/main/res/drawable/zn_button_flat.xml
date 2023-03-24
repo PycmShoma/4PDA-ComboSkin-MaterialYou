@@ -12,12 +12,9 @@
                 android:dither="true"
                 android:shape="rectangle">
                 <corners
-                    android:radius="10.0dip" />
+                    android:radius="30.0dip" />
                 <solid
-                    android:color="@color/zn_button_flat_bg" />
-                <stroke
-                    android:width="2.0dip"
-                    android:color="@color/zn_start_button_bg" />
+                    android:color="@color/zn_brend_alpha" />
             </shape>
         </item>
         <item
@@ -26,12 +23,9 @@
                 android:dither="true"
                 android:shape="rectangle">
                 <corners
-                    android:radius="10.0dip" />
+                    android:radius="30.0dip" />
                 <solid
                     android:color="@color/zn_pressed" />
-                <stroke
-                    android:width="2.0dip"
-                    android:color="@color/zn_start_button_bg" />
             </shape>
         </item>
     </selector>

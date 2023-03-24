@@ -20,7 +20,7 @@
                     android:dither="true"
                     android:shape="rectangle">
                     <corners
-                        android:radius="10.0dip" />
+                        android:radius="30.0dip" />
                     <solid
                         android:color="@color/transparent" />
                     <stroke
@@ -49,7 +49,7 @@
                     android:dither="true"
                     android:shape="rectangle">
                     <corners
-                        android:radius="10.0dip" />
+                        android:radius="30.0dip" />
                     <solid
                         android:color="@color/transparent" />
                     <stroke

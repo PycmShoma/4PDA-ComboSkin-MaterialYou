@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:left="15dp"
-        android:right="15dp"
-        android:bottom="13dp">
-        <shape android:shape="line">
-            <solid android:color="@color/transparent" />
-            <stroke
-                android:width="2dp"
-                android:color="@color/zn_border_line" />
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid
+                android:color="@color/zn_cardlist_bg" />
         </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/zn_np_card_shadow_bottom"
+            android:tint="@color/zn_selected_bg" />
     </item>
 </layer-list>

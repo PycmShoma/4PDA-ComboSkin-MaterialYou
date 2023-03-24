@@ -7,7 +7,7 @@
             <solid
                 android:color="@color/skin_keyword_on_bg" />
             <corners
-                android:radius="10.0dip" />
+                android:radius="30.0dip" />
             <padding
                 android:left="10.0dip"
                 android:top="6.0dip"
@@ -21,7 +21,7 @@
             <solid
                 android:color="@color/skin_keyword_off_bg" />
             <corners
-                android:radius="10.0dip" />
+                android:radius="30.0dip" />
             <padding
                 android:left="10.0dip"
                 android:top="6.0dip"

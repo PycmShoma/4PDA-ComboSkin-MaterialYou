@@ -8,7 +8,9 @@
             <item>
                 <shape>
                     <solid
-                        android:color="@color/zn_selected_bg" />
+                        android:color="@color/zn_brend_alpha" />
+                    <corners
+                        android:radius="30.0dip" />
                 </shape>
             </item>
         </layer-list>
@@ -20,6 +22,8 @@
                 <shape>
                     <solid
                         android:color="@color/zn_pressed" />
+                    <corners
+                        android:radius="30.0dip" />
                 </shape>
             </item>
         </layer-list>
@@ -32,6 +36,8 @@
                 <shape>
                     <solid
                         android:color="@color/transparent" />
+                    <corners
+                        android:radius="30.0dip" />
                 </shape>
             </item>
         </layer-list>

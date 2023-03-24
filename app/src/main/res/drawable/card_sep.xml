@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:left="15.0dip"
-        android:right="15.0dip"
-        android:bottom="13.0dip">
-        <shape
-            android:shape="line">
+    <item>
+        <shape>
             <solid
-                android:color="@color/transparent" />
-            <stroke
-                android:width="2.0dip"
-                android:color="@color/border_line" />
+                android:color="@color/cardlist_bg" />
         </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/np_card_shadow_bottom"
+            android:tint="@color/selected_bg" />
     </item>
 </layer-list>
