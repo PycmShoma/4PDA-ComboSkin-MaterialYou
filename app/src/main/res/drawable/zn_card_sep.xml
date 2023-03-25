@@ -10,6 +10,6 @@
     <item>
         <bitmap
             android:src="@drawable/zn_np_card_shadow_bottom"
-            android:tint="@color/zn_selected_bg" />
+            android:tint="@color/zn_brend_alpha" />
     </item>
 </layer-list>
