@@ -51,7 +51,7 @@
                     <corners
                         android:radius="30.0dip" />
                     <solid
-                        android:color="@color/transparent" />
+                        android:color="@color/zn_brend_alpha" />
                     <stroke
                         android:width="2.0dip"
                         android:color="@color/zn_selected_bg" />
