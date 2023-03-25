@@ -11,6 +11,14 @@ You can build this project on desktop with Android Studio or on Android device w
 Вы можете собрать данный проект на декстопе в Android Studio либо на устройстве с Android OS с помощью AIDE - Android IDE - Java, C++ 
 
 #
+
+`ENG`
+To build version with icons in side navigation, switch branch to [main](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/tree/main)
+
+`RUS`
+Для сборки версии с иконками в боковой навигации, переключите branch на [main](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/tree/main)
+
+#
 #
 
 <img src="https://img.shields.io/badge/Troubleshooting-blue?longCache=true&logo=github&labelColor=blue&style=flat">
