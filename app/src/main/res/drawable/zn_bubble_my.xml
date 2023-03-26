@@ -4,13 +4,7 @@
     android:shape="rectangle"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <corners
-        android:topLeftRadius="10.0dip"
-        android:topRightRadius="0.0dip"
-        android:bottomLeftRadius="10.0dip"
-        android:bottomRightRadius="10.0dip" />
+        android:radius="30.0dip" />
     <solid
         android:color="@color/zn_bubble_my_bg" />
-    <stroke
-        android:width="2.0dip"
-        android:color="@color/zn_selected_bg" />
 </shape>
