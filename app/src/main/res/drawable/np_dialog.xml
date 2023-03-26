@@ -11,16 +11,12 @@
                         android:color="@color/transparent" />
                 </shape>
             </item>
-            <item
-                android:left="5.0dip"
-                android:top="5.0dip"
-                android:right="5.0dip"
-                android:bottom="5.0dip">
+            <item>
                 <shape
                     android:dither="true"
                     android:shape="rectangle">
                     <corners
-                        android:radius="15.0dip" />
+                        android:radius="30.0dip" />
                     <solid
                         android:color="@color/brend_alpha" />
                 </shape>
@@ -37,16 +33,12 @@
                         android:color="@color/transparent" />
                 </shape>
             </item>
-            <item
-                android:left="5.0dip"
-                android:top="5.0dip"
-                android:right="5.0dip"
-                android:bottom="5.0dip">
+            <item>
                 <shape
                     android:dither="true"
                     android:shape="rectangle">
                     <corners
-                        android:radius="15.0dip" />
+                        android:radius="30.0dip" />
                     <solid
                         android:color="@color/brend_alpha" />
                 </shape>
