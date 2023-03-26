@@ -39,12 +39,12 @@ Remove implemention `testImplementation 'junit:junit:4.12'` in build.gradle
 `ENG`
 For building a project in AIDE - Android IDE - Java, C++
 
-Import [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
+Import [A12](https://github.com/Sable/android-platforms/tree/master/android-32) android.jar
 
 `RUS`
 Для сборки проекта в AIDE - Android IDE - Java, C++
 
-Импортируйте [A12](https://drive.google.com/file/d/1n_WUjwO7bPI3xpCdzsBUFIeOE8I2sUnS/view?usp=drivesdk) android.jar
+Импортируйте [A12](https://github.com/Sable/android-platforms/tree/master/android-32) android.jar
 
 #
 #
