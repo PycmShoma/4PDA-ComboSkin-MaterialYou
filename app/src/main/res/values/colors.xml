@@ -63,9 +63,9 @@
     <color name="blueviolet">#ff8a2be2</color>
     <color name="border_line">@color/brend_alpha</color>
     <color name="brend">@android:color/system_neutral1_50</color>
-    <color name="brend_alpha">@android:color/system_neutral1_100</color>
+    <color name="brend_alpha">@android:color/system_neutral1_200</color>
     <color name="brown">#ffa52a2a</color>
-    <color name="bubble_my_bg">@color/brend_alpha</color>
+    <color name="bubble_my_bg">@android:color/system_neutral1_100</color>
     <color name="bubble_oppo_bg">#ffffffff</color>
     <color name="burlywood">#ffdeb887</color>
     <color name="business_bg">@color/brend</color>
@@ -203,7 +203,7 @@
     <color name="pink">#ffffc0cb</color>
     <color name="plum">#ffdda0dd</color>
     <color name="powderblue">#ffb0e0e6</color>
-    <color name="pressed">@color/brend</color>
+    <color name="pressed">@color/brend_alpha</color>
     <color name="progress_all">@color/main_text</color>
     <color name="progress_done">@color/selected_bg</color>
     <color name="progress_image">@color/selected_bg</color>
@@ -325,9 +325,9 @@
     <color name="zn_blueviolet">#ff8a2be2</color>
     <color name="zn_border_line">@color/zn_brend_alpha</color>
     <color name="zn_brend">@android:color/system_neutral1_900</color>
-    <color name="zn_brend_alpha">@android:color/system_neutral1_800</color>
+    <color name="zn_brend_alpha">@android:color/system_neutral1_700</color>
     <color name="zn_brown">#ffa52a2a</color>
-    <color name="zn_bubble_my_bg">@color/zn_brend_alpha</color>
+    <color name="zn_bubble_my_bg">@android:color/system_neutral1_800</color>
     <color name="zn_bubble_oppo_bg">#ff2f2f2f</color>
     <color name="zn_burlywood">#ffdeb887</color>
     <color name="zn_business_bg">@color/zn_brend</color>
@@ -465,7 +465,7 @@
     <color name="zn_pink">#ffffc0cb</color>
     <color name="zn_plum">#ffdda0dd</color>
     <color name="zn_powderblue">#ffb0e0e6</color>
-    <color name="zn_pressed">@color/zn_brend</color>
+    <color name="zn_pressed">@color/zn_brend_alpha</color>
     <color name="zn_progress_all">@color/zn_main_text</color>
     <color name="zn_progress_done">@color/zn_selected_bg</color>
     <color name="zn_progress_image">@color/zn_selected_bg</color>
