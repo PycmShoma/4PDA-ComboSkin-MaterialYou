@@ -49,5 +49,11 @@ Import [A12](https://github.com/Sable/android-platforms/tree/master/android-32) 
 #
 #
 
+<img src="https://img.shields.io/badge/Credits-blue?longCache=true&logo=github&labelColor=blue&style=flat">
+Thanks for the .png graphics <a href="https://4pda.to/forum/index.php?showuser=4207213"><img src="https://img.shields.io/badge/4PDA-Primkorn-yellow?longCache=true&labelColor=blue&style=flat"> </a>
+
+#
+#
+
 <a href="https://github.com/PycmShoma/4PDA-DarkMaterialYou-Skin/blob/master/assets/screenshots.md"><img src="https://img.shields.io/badge/Screenshots-blue?longCache=true&logo=github&labelColor=blue&style=flat"> </a>
 
