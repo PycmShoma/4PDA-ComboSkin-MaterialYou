@@ -10,11 +10,13 @@
             android:state_focused="true"
             android:state_enabled="true">
             <nine-patch
-                android:src="@drawable/zn_textfield_activated" />
+                android:src="@drawable/zn_textfield_activated"
+                android:tint="@color/zn_selected_bg" />
         </item>
         <item>
             <nine-patch
-                android:src="@drawable/zn_textfield_default" />
+                android:src="@drawable/zn_textfield_default"
+                android:tint="@color/zn_selected_bg" />
         </item>
     </selector>
 </inset>

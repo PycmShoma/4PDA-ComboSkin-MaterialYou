@@ -7,6 +7,8 @@
             <item>
                 <shape
                     android:shape="rectangle">
+                    <corners
+                        android:radius="30.0dip" />
                     <solid
                         android:color="@color/zn_brend" />
                 </shape>
@@ -19,6 +21,9 @@
                         android:radius="30.0dip" />
                     <solid
                         android:color="@color/zn_brend_alpha" />
+                    <stroke
+                        android:width="1.0dip"
+                        android:color="@color/zn_brend" />
                 </shape>
             </item>
         </layer-list>
@@ -29,6 +34,8 @@
             <item>
                 <shape
                     android:shape="rectangle">
+                    <corners
+                        android:radius="30.0dip" />
                     <solid
                         android:color="@color/zn_brend" />
                 </shape>
@@ -41,6 +48,9 @@
                         android:radius="30.0dip" />
                     <solid
                         android:color="@color/zn_brend_alpha" />
+                    <stroke
+                        android:width="1.0dip"
+                        android:color="@color/zn_brend" />
                 </shape>
             </item>
         </layer-list>
