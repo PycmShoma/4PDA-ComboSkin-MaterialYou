@@ -15,7 +15,7 @@
             <item
                 android:left="0.0dip"
                 android:top="0.0dip"
-                android:right="10.0dip"
+                android:right="16.0dip"
                 android:bottom="0.0dip">
                 <bitmap
                     android:gravity="center|right"
@@ -28,7 +28,7 @@
             <item
                 android:left="0.0dip"
                 android:top="0.0dip"
-                android:right="10.0dip"
+                android:right="16.0dip"
                 android:bottom="0.0dip">
                 <bitmap
                     android:gravity="center|right"
