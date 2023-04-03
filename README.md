@@ -49,7 +49,7 @@ Remove implemention `testImplementation 'junit:junit:4.12'` in build.gradle
 #
 
 <img src="https://img.shields.io/badge/Credits-blue?longCache=true&logo=github&labelColor=blue&style=flat">
-Thanks for the .png graphics <a href="https://4pda.to/forum/index.php?showuser=4207213"><img src="https://img.shields.io/badge/4PDA-Primkorn-yellow?longCache=true&labelColor=blue&style=flat"> </a>
+Thanks for the .png graphics 4PDA user **Primkorn**
 
 #
 #
