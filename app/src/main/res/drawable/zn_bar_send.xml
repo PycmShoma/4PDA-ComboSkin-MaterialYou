@@ -14,7 +14,8 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/zn_ic_send" />
+                    android:src="@drawable/zn_ic_send"
+                    android:tint="@color/zn_selected_bg" />
             </item>
         </layer-list>
     </item>
@@ -35,7 +36,8 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/zn_ic_send_disable" />
+                    android:src="@drawable/zn_ic_send_disable"
+                    android:tint="@color/zn_selected_bg" />
             </item>
         </layer-list>
     </item>

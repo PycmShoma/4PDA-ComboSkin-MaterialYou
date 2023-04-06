@@ -11,9 +11,6 @@
                 android:shape="oval">
                 <solid
                     android:color="@color/unread_bg" />
-                <stroke
-                    android:width="1.0dip"
-                    android:color="@color/selected_bg" />
             </shape>
         </inset>
     </item>

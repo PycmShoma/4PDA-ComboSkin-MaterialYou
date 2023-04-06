@@ -22,10 +22,7 @@
                     <corners
                         android:radius="30.0dip" />
                     <solid
-                        android:color="@color/transparent" />
-                    <stroke
-                        android:width="1.0dip"
-                        android:color="@color/zn_selected_bg" />
+                        android:color="@color/zn_brend_alpha" />
                 </shape>
             </item>
         </layer-list>
@@ -37,7 +34,7 @@
                 <shape
                     android:shape="rectangle">
                     <solid
-                        android:color="@color/transparent" />
+                        android:color="@color/zn_brend" />
                 </shape>
             </item>
             <item
@@ -51,10 +48,7 @@
                     <corners
                         android:radius="30.0dip" />
                     <solid
-                        android:color="@color/zn_brend_alpha" />
-                    <stroke
-                        android:width="2.0dip"
-                        android:color="@color/zn_selected_bg" />
+                        android:color="@color/zn_brend" />
                 </shape>
             </item>
         </layer-list>

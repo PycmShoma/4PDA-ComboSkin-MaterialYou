@@ -21,7 +21,7 @@
                     android:color="@color/zn_edit_nofocus_bg" />
                 <stroke
                     android:width="2.0dip"
-                    android:color="@color/zn_selected_bg" />
+                    android:color="@color/zn_brend_alpha" />
             </shape>
         </item>
         <item
@@ -39,7 +39,7 @@
                     android:color="@color/zn_edit_nofocus_bg" />
                 <stroke
                     android:width="2.0dip"
-                    android:color="@color/zn_selected_bg" />
+                    android:color="@color/zn_brend_alpha" />
             </shape>
         </item>
         <item>
@@ -56,7 +56,7 @@
                     android:color="@color/zn_edit_bg" />
                 <stroke
                     android:width="2.0dip"
-                    android:color="@color/zn_selected_bg" />
+                    android:color="@color/zn_brend_alpha" />
             </shape>
         </item>
     </selector>
