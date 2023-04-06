@@ -14,7 +14,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_smiles" />
+                    android:src="@drawable/zn_ic_smiles_qms" />
             </item>
         </layer-list>
     </item>
@@ -24,7 +24,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_smiles"
+                    android:src="@drawable/zn_ic_smiles_qms"
                     android:tint="@color/zn_selected_bg" />
             </item>
         </layer-list>
