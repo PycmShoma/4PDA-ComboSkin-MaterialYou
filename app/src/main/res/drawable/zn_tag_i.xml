@@ -8,13 +8,14 @@
                 <shape
                     android:shape="rectangle">
                     <solid
-                        android:color="@color/zn_pressed" />
+                        android:color="@color/zn_brend" />
                 </shape>
             </item>
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/zn_b_tag_i" />
+                    android:src="@drawable/zn_b_tag_i"
+                    android:tint="@color/brend" />
             </item>
         </layer-list>
     </item>

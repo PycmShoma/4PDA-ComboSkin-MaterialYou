@@ -25,7 +25,7 @@
                 <corners
                     android:radius="30.0dip" />
                 <solid
-                    android:color="@color/zn_pressed" />
+                    android:color="@color/zn_brend" />
             </shape>
         </item>
     </selector>

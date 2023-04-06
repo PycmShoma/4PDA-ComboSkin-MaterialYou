@@ -10,7 +10,7 @@
             <shape
                 android:shape="oval">
                 <solid
-                    android:color="#ff910000" />
+                    android:color="@color/zn_red" />
             </shape>
         </inset>
     </item>
