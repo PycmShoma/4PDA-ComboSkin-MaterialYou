@@ -18,7 +18,7 @@
                 <corners
                     android:radius="20.0dip" />
                 <solid
-                    android:color="@color/disable_text" />
+                    android:color="@color/edit_nofocus_bg" />
             </shape>
         </item>
         <item
@@ -33,7 +33,7 @@
                 <corners
                     android:radius="20.0dip" />
                 <solid
-                    android:color="@color/disable_text" />
+                    android:color="@color/edit_nofocus_bg" />
             </shape>
         </item>
         <item>
@@ -47,7 +47,7 @@
                 <corners
                     android:radius="20.0dip" />
                 <solid
-                    android:color="@color/disable_text" />
+                    android:color="@color/edit_nofocus_bg" />
             </shape>
         </item>
     </selector>
