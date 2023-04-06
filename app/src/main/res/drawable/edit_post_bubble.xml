@@ -21,7 +21,7 @@
                     android:color="@color/edit_nofocus_bg" />
                 <stroke
                     android:width="2.0dip"
-                    android:color="@color/selected_bg" />
+                    android:color="@color/brend_alpha" />
             </shape>
         </item>
         <item
@@ -39,7 +39,7 @@
                     android:color="@color/edit_nofocus_bg" />
                 <stroke
                     android:width="2.0dip"
-                    android:color="@color/selected_bg" />
+                    android:color="@color/brend_alpha" />
             </shape>
         </item>
         <item>
@@ -56,7 +56,7 @@
                     android:color="@color/edit_bg" />
                 <stroke
                     android:width="2.0dip"
-                    android:color="@color/selected_bg" />
+                    android:color="@color/brend_alpha" />
             </shape>
         </item>
     </selector>

@@ -8,7 +8,8 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_unread" />
+                    android:src="@drawable/ic_unread"
+                    android:tint="@color/main_text" />
             </item>
         </layer-list>
     </item>
@@ -33,13 +34,14 @@
                 <shape
                     android:shape="rectangle">
                     <solid
-                        android:color="@color/pressed" />
+                        android:color="@color/brend" />
                 </shape>
             </item>
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_unread" />
+                    android:src="@drawable/ic_unread"
+                    android:tint="@color/main_text" />
             </item>
         </layer-list>
     </item>
@@ -51,7 +53,7 @@
                 <shape
                     android:shape="rectangle">
                     <solid
-                        android:color="@color/pressed" />
+                        android:color="@color/brend" />
                 </shape>
             </item>
         </layer-list>
