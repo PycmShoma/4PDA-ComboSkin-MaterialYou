@@ -8,13 +8,14 @@
                 <shape
                     android:shape="rectangle">
                     <solid
-                        android:color="@color/pressed" />
+                        android:color="@color/brend" />
                 </shape>
             </item>
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_smiles_qms" />
+                    android:src="@drawable/ic_smiles"
+                    android:tint="@color/brend" />
             </item>
         </layer-list>
     </item>
@@ -24,7 +25,7 @@
             <item>
                 <bitmap
                     android:gravity="center"
-                    android:src="@drawable/ic_smiles_qms"
+                    android:src="@drawable/ic_smiles"
                     android:tint="@color/selected_bg" />
             </item>
         </layer-list>

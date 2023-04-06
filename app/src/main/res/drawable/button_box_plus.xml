@@ -29,7 +29,7 @@
                 <shape
                     android:shape="rectangle">
                     <solid
-                        android:color="@color/pressed" />
+                        android:color="@color/brend" />
                 </shape>
             </item>
             <item>
