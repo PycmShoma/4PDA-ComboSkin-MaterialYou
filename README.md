@@ -56,6 +56,16 @@ Thanks for the .png graphics 4PDA user [***Primkorn***](https://4pda.to/forum/in
 #
 #
 
+Standard ComboSkin with fixes [Release 1.9.9](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/releases/tag/1.9.9)
+
+#
+#
+
+4PDA Forum app with monochrome launcher icon [Release 1.9.35](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/releases/tag/1.9.35)
+
+#
+#
+
 <a href="https://github.com/PycmShoma/4PDA-DarkMaterialYou-Skin/blob/master/assets/screenshots.md"><img src="https://img.shields.io/badge/Screenshots-blue?longCache=true&logo=github&labelColor=blue&style=flat"> </a>
 
 <a href="https://4pda.to/forum/index.php?showtopic=1054830"><img src="https://img.shields.io/badge/4PDA%20Thread-blue?longCache=true&style=flat"> </a>
