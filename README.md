@@ -66,7 +66,7 @@ Standard ComboSkin with fixes [Release 1.9.9](https://github.com/PycmShoma/4PDA-
 #
 #
 
-<a href="/assets/screenshots.md"><img src="https://img.shields.io/badge/Screenshots-blue?longCache=true&logo=github&labelColor=blue&style=flat"> </a>
+<a href="https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/blob/main/assets/screenshots.md"><img src="https://img.shields.io/badge/Screenshots-blue?longCache=true&logo=github&labelColor=blue&style=flat"> </a>
 
 <a href="https://4pda.to/forum/index.php?showtopic=1054830"><img src="https://img.shields.io/badge/4PDA%20Thread-blue?longCache=true&style=flat"> </a>
 
