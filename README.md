@@ -60,7 +60,7 @@ Standard ComboSkin with fixes [Release 1.9.9](https://github.com/PycmShoma/4PDA-
 #
 #
 
-4PDA Forum app with monochrome launcher icon [Release 1.9.35](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/releases/tag/1.9.35)
+4PDA Forum app with monochrome launcher icon and fixed import/export settings for devices with Android OS 11+ [Release 1.9.35](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/releases/tag/1.9.35)
 
 #
 #
