@@ -1,4 +1,6 @@
-# Notes
+
+<img src="https://img.shields.io/badge/Note%20/%20Внимание-blue?longCache=true&logo=github&labelColor=blue&style=flat">
+
 - According to the rules of the 4PDA resource, the public release of client app modifications is prohibited, but no one forbids using it only for yourself
 - To decompile applications, use any convenient apktool for you and your device architecture
 
@@ -8,6 +10,8 @@
 
 #
 #
+
+<img src="https://img.shields.io/badge/Separate%20favorites%20and%20mentions%20/%20Разделение%20избранного%20и%20упоминаний-blue?longCache=true&logo=github&labelColor=blue&style=flat">
 
 ## To separate the favorites and mentions nav icons in drawer
 - Add the ic_nav_men drawable resource as a bitmap or vector and edit /res/layout/mainactivity.xml in the **client app** itself
@@ -33,6 +37,8 @@
 #
 #
 
+<img src="https://img.shields.io/badge/Monochrome%20app%20icon%20/%20Монохромная%20иконка%20приложения-blue?longCache=true&logo=github&labelColor=blue&style=flat">
+
 ## To add a monochrome app icon for A13
 - Create or [download](/assets/res/drawables) a vector resource and put to /res/drawable on the **client app** and add the line to /res/mipmap-anydpi-v26/ic_launcher.xml and ic_launcher_round.xml with content:
 penultimate line and add the line to /res/[mipmap-anydpi-v26](/assets/res/mipmap-anydpi-v26)/ic_launcher.xml and ic_launcher_round.xml with content:
@@ -45,6 +51,9 @@ penultimate line
 
 #
 #
+
+<img src="https://img.shields.io/badge/Monochrome%20app%20shortcuts%20/%20Монохромные%20иконки%20шорткатов-blue?longCache=true&logo=github&labelColor=blue&style=flat">
+
 
 ## To add a monochrome app shortcuts for A13
 - Create or [download](/assets/res) a vector resources and put to /res/mipmap* and /res/[xml-v33](/assets/res/xml-v33) on the **client app**
