@@ -11,6 +11,18 @@
 #
 #
 
+<img src="https://img.shields.io/badge/A11%20Fix%20for%20export/import%20settings%20/%20Фикс%20экспорта/импорта%20настроек%20A11-blue?longCache=true&logo=github&labelColor=blue&style=flat">
+
+- To [AndroidManifest.xml](/assets/res/AndroidManifest.xml) file in `aplication` massive add the line:
+
+`RUS`
+- В [AndroidManifest.xml](/assets/res/AndroidManifest.xml) файл в массив `aplication` добавьте строку:
+
+`android:requestLegacyExternalStorage="true"`
+
+#
+#
+
 <img src="https://img.shields.io/badge/Separate%20favorites%20and%20mentions%20/%20Разделение%20избранного%20и%20упоминаний-blue?longCache=true&logo=github&labelColor=blue&style=flat">
 
 ## To separate the favorites and mentions nav icons in drawer
