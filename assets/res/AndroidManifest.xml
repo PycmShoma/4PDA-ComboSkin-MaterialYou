@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:installLocation="auto"
+    android:compileSdkVersion="30"
+    android:compileSdkVersionCodename="11"
+    package="ru.fourpda.client"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Приложение сможет создавать сетевые сокеты и использовать различные сетевые протоколы. Так как браузер и другие приложения обеспечивают средства для отправки данных в интернет, это разрешение предоставлять не обязательно. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <!-- Приложение сможет просматривать информацию о сетевых подключениях, например о том, какие сети доступны и к каким из них вы подключены. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Приложение сможет запускаться после начальной загрузки системы. Это может привести к увеличению времени включения телефона и уменьшить его быстродействие в связи с постоянной работой приложения. -->
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Приложение сможет контролировать вибросигналы. -->
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <!-- Приложение сможет записывать данные на общий накопитель. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Приложение сможет считывать данные с общего накопителя. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Приложение сможет запрещать перевод телефона в спящий режим. -->
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+    <!-- Приложение сможет запрашивать разрешения на установку пакетов. -->
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- Приложения смогут принимать Push-сообщения от службы приложения. Использование этой службы подразумевает интенсивный обмен данными. Вредоносные приложения могут использовать эту особенность для проведения DoS-атак. -->
+    <uses-permission
+        android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <queries>
+        <intent>
+            <action
+                android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.OPEN_DOCUMENT" />
+        </intent>
+        <intent>
+            <action
+                android:name="ru.fourpda.skin" />
+        </intent>
+        <package
+            android:name="com.google.android.gms" />
+        <package
+            android:name="com.huawei.hwid" />
+    </queries>
+    <application
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="ru.fourpda.client.FourpdaApp"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:resizeableActivity="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:requestLegacyExternalStorage="true">
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+        <activity
+            android:theme="@style/Activity_Preload"
+            android:label="4PDA"
+            android:icon="@mipmap/ic_launcher"
+            android:name="ru.fourpda.client.MainActivity"
+            android:launchMode="singleTask"
+            android:configChanges="keyboardHidden|orientation|screenSize|uiMode"
+            android:windowSoftInputMode="adjustResize"
+            android:roundIcon="@mipmap/ic_launcher_round">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="http"
+                    android:host="4pda.ru" />
+                <data
+                    android:scheme="https"
+                    android:host="4pda.to" />
+                <data
+                    android:host="4pda.ws" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <service
+            android:name="ru.fourpda.client.FourpdaService">
+            <intent-filter>
+                <action
+                    android:name="ru.fourpda.client" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="ru.fourpda.client.FourpdaJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <receiver
+            android:name="ru.fourpda.client.BootReceiver">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+                <action
+                    android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action
+                    android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action
+                    android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action
+                    android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <action
+                    android:name="com.huawei.android.push.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name="org.acra.dialog.CrashReportDialog"
+            android:process=":acra"
+            android:finishOnTaskLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance" />
+        <service
+            android:name="org.acra.sender.SenderService"
+            android:exported="false"
+            android:process=":acra" />
+    </application>
+</manifest>
