@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <background>
+        <shape
+            android:shape="rectangle">
+            <solid
+                android:color="@android:color/system_accent1_100" />
+        </shape>
+    </background>
+    <foreground>
+        <vector
+            android:height="800.0dip"
+            android:width="800.0dip"
+            android:viewportWidth="40.0"
+            android:viewportHeight="40.0">
+            <path
+                android:fillColor="@android:color/system_neutral1_800"
+                android:pathData="M17,17C16.448,17 16,17.448 16,18C16,18.552 16.448,19 17,19L23,19C23.552,19 24,18.552 24,18C24,17.448 23.552,17 23,17L17,17Z" />
+            <path
+                android:fillColor="@android:color/system_neutral1_800"
+                android:pathData="M16,22C16,21.448 16.448,21 17,21L23,21C23.552,21 24,21.448 24,22C24,22.552 23.552,23 23,23L17,23C16.448,23 16,22.552 16,22Z" />
+            <path
+                android:fillColor="@android:color/system_neutral1_800"
+                android:pathData="M17,25C16.448,25 16,25.448 16,26C16,26.552 16.448,27 17,27L23,27C23.552,27 24,26.552 24,26C24,25.448 23.552,25 23,25L17,25Z" />
+            <path
+                android:fillColor="@android:color/system_neutral1_800"
+                android:pathData="M15.625,13L17.034,13C17.71,12.371 18.647,12 19.625,12L28.375,12C30.263,12 32,13.385 32,15.333L32,24.667C32,26.615 30.263,28 28.375,28L27.94,28C27.631,29.697 26.164,31 24.375,31L15.625,31C13.608,31 12,29.344 12,27.333L12,16.667C12,14.657 13.608,13 15.625,13ZM28.375,26L28,26L28,16.667C28,15.621 27.565,14.671 26.863,14L28.375,14C29.386,14 30,14.704 30,15.333L30,24.667C30,25.296 29.386,26 28.375,26ZM15.625,15C14.742,15 14,15.731 14,16.667L14,27.333C14,28.269 14.742,29 15.625,29L24.375,29C25.258,29 26,28.269 26,27.333L26,16.667C26,15.731 25.258,15 24.375,15L15.625,15Z"
+                android:fillType="evenOdd" />
+        </vector>
+    </foreground>
+</adaptive-icon>

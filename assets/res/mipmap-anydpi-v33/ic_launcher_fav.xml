@@ -1,1 +1,24 @@
-#
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <background>
+        <shape
+            android:shape="rectangle">
+            <solid
+                android:color="@android:color/system_accent1_100" />
+        </shape>
+    </background>
+    <foreground>
+        <vector
+            android:height="800.0dip"
+            android:width="800.0dip"
+            android:viewportWidth="40.0"
+            android:viewportHeight="40.0">
+            <path
+                android:fillColor="#00000000"
+                android:pathData="M19.075,11.256C19.414,10.428 20.586,10.428 20.925,11.256L22.649,15.46C22.793,15.81 23.122,16.049 23.5,16.077L28.03,16.418C28.922,16.485 29.284,17.599 28.602,18.178L25.137,21.117C24.848,21.361 24.722,21.748 24.812,22.116L25.888,26.53C26.1,27.399 25.152,28.088 24.391,27.618L20.526,25.23C20.203,25.032 19.797,25.032 19.474,25.23L15.609,27.618C14.848,28.088 13.9,27.399 14.112,26.53L15.188,22.116C15.278,21.748 15.152,21.361 14.863,21.117L11.398,18.178C10.716,17.599 11.078,16.485 11.97,16.418L16.5,16.077C16.878,16.049 17.207,15.81 17.351,15.46L19.075,11.256Z"
+                android:strokeColor="@android:color/system_neutral1_800"
+                android:strokeWidth="2.0" />
+        </vector>
+    </foreground>
+</adaptive-icon>
