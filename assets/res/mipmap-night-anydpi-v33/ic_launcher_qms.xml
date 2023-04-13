@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <background>
+        <shape
+            android:shape="rectangle">
+            <solid
+                android:color="@android:color/system_neutral1_800" />
+        </shape>
+    </background>
+    <foreground>
+        <vector
+            android:height="800.0dip"
+            android:width="800.0dip"
+            android:viewportWidth="60.0"
+            android:viewportHeight="60.0">
+            <path
+                android:fillColor="@android:color/system_accent1_100"
+                android:pathData="M26.171,38L24,38C22.343,38 21,36.657 21,35L21,24C21,22.343 22.343,21 24,21L38,21C39.657,21 41,22.343 41,24L41,27C42.657,27 44,28.343 44,30L44,37C44,38.657 42.657,40 41,40L38.954,40L35.753,43.659C35.563,43.875 35.288,44 35,44C34.712,44 34.437,43.875 34.247,43.659L31.046,40L29,40C27.694,40 26.583,39.165 26.171,38ZM39,27L39,24C39,23.448 38.552,23 38,23L24,23C23.448,23 23,23.448 23,24L23,35C23,35.552 23.448,36 24,36L26,36L26,30C26,28.343 27.343,27 29,27L39,27ZM37.747,38.341L35,41.481L32.253,38.341C32.063,38.125 31.788,38 31.5,38L29,38C28.448,38 28,37.552 28,37L28,30C28,29.448 28.448,29 29,29L41,29C41.552,29 42,29.448 42,30L42,37C42,37.552 41.552,38 41,38L38.5,38C38.212,38 37.937,38.125 37.747,38.341Z" />
+        </vector>
+    </foreground>
+</adaptive-icon>
