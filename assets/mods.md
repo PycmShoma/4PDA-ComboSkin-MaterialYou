@@ -34,12 +34,12 @@
 #
 
 ## To add a monochrome app icon for A13
-- Create or download a vector resource and put to /res/drawable on the **client app** and add the line to /res/mipmap-anydpi-v26/ic_launcher.xml and ic_launcher_round.xml with content:
-penultimate line and add the line to /res/mipmap-anydpi-v26/ic_launcher.xml and ic_launcher_round.xml with content:
+- Create or [download](/assets/res/drawables) a vector resource and put to /res/drawable on the **client app** and add the line to /res/mipmap-anydpi-v26/ic_launcher.xml and ic_launcher_round.xml with content:
+penultimate line and add the line to /res/[mipmap-anydpi-v26](/assets/res/mipmap-anydpi-v26)/ic_launcher.xml and ic_launcher_round.xml with content:
 penultimate line
 
 `RUS`
-- Для добавления монохромной иконки для A13 создайте или скачайте векторную графику и посестите ее в /res/drawable **приложения клиента** и добавьте предпоследней строкой в /res/mipmap-anydpi-v26/ic_launcher.xml и ic_launcher_round.xml следующую строку:
+- Для добавления монохромной иконки для A13 создайте или [скачайте](/assets/res/drawables) векторную графику и посестите ее в /res/drawable **приложения клиента** и добавьте предпоследней строкой в /res/[mipmap-anydpi-v26](/assets/res/mipmap-anydpi-v26)/ic_launcher.xml и ic_launcher_round.xml следующую строку:
 
 `<monochrome android:drawable="@drawable/adaptive_monochrome_fourpda_launcher" />`
 
@@ -47,7 +47,7 @@ penultimate line
 #
 
 ## To add a monochrome app shortcuts for A13
-- Create or download a vector resources and put to /res/ on the **client app**
+- Create or [download](/assets/res) a vector resources and put to /res/mipmap* and /res/[xml-v33](/assets/res/xml-v33) on the **client app**
 
 `RUS`
-- Для добавления монохромных шорткатов создайте или скачайте векторную графику и поместите ее в /res **приложения клиента** 
+- Для добавления монохромных шорткатов создайте или [скачайте](/assets/res) векторную графику и поместите ее в /res/mipmap* и /res/[xml-v33](/assets/res/xml-v33) **приложения клиента** 
