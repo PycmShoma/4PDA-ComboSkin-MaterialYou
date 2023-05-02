@@ -5,12 +5,11 @@ android {
     buildToolsVersion '31.0.0'
 
     defaultConfig {
-        applicationId "ru.fourpda.skins.MaterialYouComboSkin"   /* обязательно переименовать "ru.fourpda.skins.ВАШЕ_ИМЯ"
-                                при добавлении скина на форум, указать данную строчку в поле "Имя скина в системе"*/
+        applicationId "ru.fourpda.skins.MaterialYouComboSkin"
         minSdkVersion 31
         targetSdkVersion 31
-        versionCode 1090924
-        versionName "1.9.924"
+        versionCode 1090925
+        versionName "1.9.925"
     }
     buildTypes {
         release {
@@ -18,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationVariants.all { variant ->
                 variant.outputs.all { output ->
-                    outputFileName = defaultConfig.applicationId + "-" + defaultConfig.versionName + ".apk"
+                    outputFileName = 'defaultConfig.applicationId' + "-" + 'defaultConfig.versionName' + ".apk"
                 }
             }
         }
@@ -27,5 +26,4 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    testImplementation 'junit:junit:4.12'
 }
