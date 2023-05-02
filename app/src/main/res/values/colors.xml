@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="aliceblue">#f0f8ff</color>
     <color name="alter_text">@color/main_text</color>
@@ -107,7 +107,7 @@
     <color name="disable_text">#a5a5a5</color>
     <color name="dodgerblue">#1e90ff</color>
     <color name="edit_bg">@color/brend</color>
-    <color name="edit_nofocus_bg">#eeeeee</color>
+    <color name="edit_nofocus_bg">@color/bubble_oppo_bg</color>
     <color name="firebrick">#b22222</color>
     <color name="floralwhite">#fffaf0</color>
     <color name="forestgreen">#228b22</color>
@@ -168,7 +168,7 @@
     <color name="list_selector">@color/black</color>
     <color name="magenta">#ff00ff</color>
     <color name="main_bg">@color/brend</color>
-    <color name="main_text">@color/black</color>
+    <color name="main_text">#99000000</color>
     <color name="maroon">#800000</color>
     <color name="mediumaquamarine">#66cdaa</color>
     <color name="mediumblue">#0000cd</color>
@@ -211,7 +211,7 @@
     <color name="purple">#800080</color>
     <color name="qms_typing_dots">@color/main_text</color>
     <color name="qmslist_bg">@color/brend</color>
-    <color name="red">#ff0000</color>
+    <color name="red">#ef8282</color>
     <color name="refresh_arrow_1">@color/main_text</color>
     <color name="refresh_arrow_2">@color/main_text</color>
     <color name="refresh_arrow_3">@color/main_text</color>
@@ -222,9 +222,9 @@
     <color name="sandybrown">#f4a460</color>
     <color name="scroll_horz_thumb_color">@color/main_text</color>
     <color name="seagreen">#2e8b57</color>
-    <color name="search_post_title">@color/selected_bg</color>
+    <color name="search_post_title">@color/brend_alpha</color>
     <color name="seashell">#fff5ee</color>
-    <color name="selected_bg">@android:color/system_accent1_500</color>
+    <color name="selected_bg">@android:color/system_accent1_300</color>
     <color name="sienna">#a0522d</color>
     <color name="silver">#c0c0c0</color>
     <color name="sitepost_shade">#99000000</color>
@@ -254,7 +254,7 @@
     <color name="tomato">#ff6347</color>
     <color name="transparent">#00000000</color>
     <color name="turquoise">#40e0d0</color>
-    <color name="unread_bg">@color/brend</color>
+    <color name="unread_bg">@color/red</color>
     <color name="unread_text">@color/main_text</color>
     <color name="violet">#ee82ee</color>
     <color name="wheat">#f5deb3</color>
@@ -369,7 +369,7 @@
     <color name="zn_disable_text">#565656</color>
     <color name="zn_dodgerblue">@color/zn_blue</color>
     <color name="zn_edit_bg">@color/zn_brend</color>
-    <color name="zn_edit_nofocus_bg">#303030</color>
+    <color name="zn_edit_nofocus_bg">@color/zn_bubble_oppo_bg</color>
     <color name="zn_firebrick">#b22222</color>
     <color name="zn_floralwhite">#fffaf0</color>
     <color name="zn_forestgreen">#228b22</color>
@@ -473,7 +473,7 @@
     <color name="zn_purple">#a020a0</color>
     <color name="zn_qms_typing_dots">@color/zn_main_text</color>
     <color name="zn_qmslist_bg">@color/zn_brend</color>
-    <color name="zn_red">#d50000</color>
+    <color name="zn_red">#910000</color>
     <color name="zn_refresh_arrow_1">@color/zn_main_text</color>
     <color name="zn_refresh_arrow_2">@color/zn_main_text</color>
     <color name="zn_refresh_arrow_3">@color/zn_main_text</color>
@@ -484,9 +484,9 @@
     <color name="zn_sandybrown">#f4a460</color>
     <color name="zn_scroll_horz_thumb_color">@color/zn_main_text</color>
     <color name="zn_seagreen">#2e8b57</color>
-    <color name="zn_search_post_title">@color/zn_selected_bg</color>
+    <color name="zn_search_post_title">@color/zn_brend_alpha</color>
     <color name="zn_seashell">#fff5ee</color>
-    <color name="zn_selected_bg">@android:color/system_accent1_500</color>
+    <color name="zn_selected_bg">@android:color/system_accent1_300</color>
     <color name="zn_sienna">#a0522d</color>
     <color name="zn_silver">#c0c0c0</color>
     <color name="zn_sitepost_shade">#50000000</color>
@@ -515,7 +515,7 @@
     <color name="zn_ticket_work_text">@color/zn_main_text</color>
     <color name="zn_tomato">#ff6347</color>
     <color name="zn_turquoise">#40e0d0</color>
-    <color name="zn_unread_bg">@color/zn_brend</color>
+    <color name="zn_unread_bg">@color/zn_red</color>
     <color name="zn_unread_text">@color/zn_main_text</color>
     <color name="zn_violet">#ee82ee</color>
     <color name="zn_wheat">#f5deb3</color>
