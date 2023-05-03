@@ -230,7 +230,7 @@
     <color name="sitepost_shade">#99000000</color>
     <color name="skin_flags">#000000</color>
     <color name="skin_keyword_off_bg">@color/brend_alpha</color>
-    <color name="skin_keyword_on_bg">@color/selected_bg</color>
+    <color name="skin_keyword_on_bg">@color/brend</color>
     <color name="skyblue">#87ceeb</color>
     <color name="slateblue">#6a5acd</color>
     <color name="slategray">#708090</color>
@@ -492,7 +492,7 @@
     <color name="zn_sitepost_shade">#50000000</color>
     <color name="zn_skin_flags">#ffffff</color>
     <color name="zn_skin_keyword_off_bg">@color/zn_brend_alpha</color>
-    <color name="zn_skin_keyword_on_bg">@color/zn_selected_bg</color>
+    <color name="zn_skin_keyword_on_bg">@color/zn_brend</color>
     <color name="zn_skyblue">#87ceeb</color>
     <color name="zn_slateblue">#6a5acd</color>
     <color name="zn_slategray">#708090</color>
