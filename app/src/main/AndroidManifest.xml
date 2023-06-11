@@ -4,7 +4,13 @@
           android:targetSdkVersion="31" />
     <application
         android:label="@string/app_name"
-        android:icon="@mipmap/ic_launcher"
-        android:debuggable="false">
+        android:icon="@mipmap/ic_launcher">
+        <receiver
+            android:name=".BindReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="ru.fourpda.skin" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
