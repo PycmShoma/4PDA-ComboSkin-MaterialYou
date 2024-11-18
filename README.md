@@ -13,12 +13,15 @@ You can build this project on desktop with Android Studio or on Android device w
 #
 
 `ENG`
-To build version without icons in side navigation, switch branch to [NoNavIcons](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/tree/NoNavIcons)
+
+To build version with icons in side navigation, switch branch to [main](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/tree/main)
 
 `RUS`
-Для сборки версии без иконок в боковой навигации, переключите branch на [NoNavIcons](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/tree/NoNavIcons)
+Для сборки версии с иконками в боковой навигации, переключите branch на [main](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/tree/main)
 
 #
+#
+
 
 `ENG`
 For building a project in AIDE - Android IDE - Java, C++
@@ -48,7 +51,9 @@ Remove implemention `testImplementation 'junit:junit:4.12'` in build.gradle
 #
 #
 
-<img src="https://img.shields.io/badge/Credits%20/%20Благодарности-blue?longCache=true&logo=github&labelColor=blue&style=flat">
+
+<img src="https://img.shields.io/badge/Credits-blue?longCache=true&logo=github&labelColor=blue&style=flat">
+
 
 Thanks for the .png graphics 4PDA user [***Primkorn***](https://4pda.to/forum/index.php?showuser=4207213)
 
@@ -60,11 +65,15 @@ Standard ComboSkin with fixes [Release 1.9.9](https://github.com/PycmShoma/4PDA-
 #
 #
 
-<a href="/assets/screenshots.md"><img src="https://img.shields.io/badge/Screenshots%20/%20Скриншоты-blue?longCache=true&logo=github&labelColor=blue&style=flat"> </a>
 
-<a href="https://4pda.to/forum/index.php?showtopic=1054830"><img src="https://img.shields.io/badge/4PDA%20Thread%20/%20Тема%20на%204PDA-blue?longCache=true&style=flat"> </a>
+4PDA Forum app with monochrome launcher icon [Release 1.9.35](https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/releases/tag/1.9.35)
 
-<a href="/assets/mods.md"><img src="https://img.shields.io/badge/Client%20%20app%20modifications/%20Модификация%20клиента-blue?longCache=true&logo=github&labelColor=blue&style=flat"> </a>
+#
+#
+
+<a href="https://github.com/PycmShoma/4PDA-ComboSkin-MaterialYou/blob/main/assets/screenshots.md"><img src="https://img.shields.io/badge/Screenshots-blue?longCache=true&logo=github&labelColor=blue&style=flat"> </a>
+
+<a href="https://4pda.to/forum/index.php?showtopic=1054830"><img src="https://img.shields.io/badge/4PDA%20Thread-blue?longCache=true&style=flat"> </a>
 
 
 
